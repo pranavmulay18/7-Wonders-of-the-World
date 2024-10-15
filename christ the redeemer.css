@@ -1,0 +1,122 @@
+
+
+
+body {font-family: 'Poppins', sans-serif;
+    background-color: rgb(54, 54, 54);
+    color: white; /* Change text color to white for better visibility on black background */
+    background-image:60% ;
+  }
+
+  .intro {
+    background-image: url('christ the reddemer/wp1991618.jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 110vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(169, 162, 162, 0.5); /* Apply a subtle text shadow */
+    padding: 20px; /* Add padding to ensure space around the text */
+  }
+  .intro p {
+    
+    padding: 5px; /* Adjust padding for the highlighted text */
+  }
+  
+  .his {
+    background-image: url('christ the reddemer/wallpaperflare.com_wallpaper (1).jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 80vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(129, 122, 122, 0.5); /* Apply a subtle text shadow */
+    padding: 0px; /* Add padding to ensure space around the text */
+  }
+  .his p {
+  
+    padding: px; /* Adjust padding for the highlighted text */
+  }
+
+  .arc {
+    background-image: url('christ the reddemer/Rf0BQ1.jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 80vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #fffefe;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+    padding: 0px; /* Add padding to ensure space around the text */
+  }
+  .arc p {
+   
+    padding: px; /* Adjust padding for the highlighted text */
+  }
+
+  .cul {
+    background-image: url('christ the reddemer/chrtist.jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 80vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+    padding: 0px; /* Add padding to ensure space around the text */
+  }
+  .cul p {
+    
+    padding: px; /* Adjust padding for the highlighted text */
+  }
+
+  .tip {
+    background-image: url('christ the reddemer/1.jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 120vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+    padding: 0px; /* Add padding to ensure space around the text */
+  }
+  .tip p {
+   
+    padding: px; /* Adjust padding for the highlighted text */
+  }
+
+  .nea {
+    background-image: url('christ the reddemer/2.jpg');
+    background-size: cover; /* Covers the entire container without stretching */
+    background-position: center;/* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 120vh; /* Sets the height of the container to 100% of the viewport height */
+    /* Additional styling for the intro section */
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(231, 61, 61, 0.5); /* Apply a subtle text shadow */
+    padding: 0px; /* Add padding to ensure space around the text */
+  }
+  .nea p {
+ 
+    padding: px; /* Adjust padding for the highlighted text */
+  }
+
+h1{
+    background-color: rgb(2, 51, 74);
+    color: #cccccc;
+    text-align: center }
+h2{
+    background-color: rgb(0, 36, 32);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p1{ background-color: rgb(0, 0, 0);
+    text-align: start;
+    height: 20px;
+    width:20px;
+}
+
+

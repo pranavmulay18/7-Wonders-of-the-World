@@ -1,0 +1,114 @@
+body {
+  background-color: #e30707;
+  color: white; /* Change text color to white for better visibility on black background */
+  background-image:60% ;
+}
+
+.intro {
+  background-image: url('petra/petra-4954551_1280.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 75vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 20px; /* Add padding to ensure space around the text */
+}
+.intro p {
+  
+  padding: 5px; /* Adjust padding for the highlighted text */
+}
+
+.his {
+  background-image: url('petra/petra-4351361_1920.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 80vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 0px; /* Add padding to ensure space around the text */
+}
+.his p {
+
+  padding: px; /* Adjust padding for the highlighted text */
+}
+
+.arc {
+  background-image: url('petra/istockphoto-1330026475-1024x1024.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 80vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #fffefe;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 0px; /* Add padding to ensure space around the text */
+}
+.arc p {
+ 
+  padding: px; /* Adjust padding for the highlighted text */
+}
+
+.cul {
+  background-image: url('petra/istockphoto-1136310017-1024x1024.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 0px; /* Add padding to ensure space around the text */
+}
+.cul p {
+  
+  padding: px; /* Adjust padding for the highlighted text */
+}
+
+.tip {
+  background-image: url('machu pichu/IMG-20231127-WA0156.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 120vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 0px; /* Add padding to ensure space around the text */
+}
+.tip p {
+ 
+  padding: px; /* Adjust padding for the highlighted text */
+}
+
+.nea {
+  background-image: url('machu pichu/IMG-20231127-WA0157.jpg');
+  background-size: cover; /* Covers the entire container without stretching */
+  background-position: center;/* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 120vh; /* Sets the height of the container to 100% of the viewport height */
+  /* Additional styling for the intro section */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Apply a subtle text shadow */
+  padding: 0px; /* Add padding to ensure space around the text */
+}
+.nea p {
+
+  padding: px; /* Adjust padding for the highlighted text */
+}
+
+h1{
+  background-color: #CDB79E;
+  color: #FFF8E1;
+  text-align: center }
+h2{
+  background-color: #FFF8E1;
+  color: rgb(158, 136, 9);
+  text-align: center;
+}
+p1{ background-color: #F5F5F5;
+  text-align: start;
+}

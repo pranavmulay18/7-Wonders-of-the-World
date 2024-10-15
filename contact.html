@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .Header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            gap: 16px;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .success-message,
+        .error-message {
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .success-message {
+            color: green;
+        }
+
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="web.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="Header">
+        <h2>Contact Us</h2>
+    </div>
+
+    <div class="container">
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+
+            <div id="response" class="success-message"></div>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+
+            var isSuccess = true;
+
+
+            var responseElement = document.getElementById('response');
+            responseElement.innerHTML = '';
+
+            if (isSuccess) {
+                responseElement.className = 'success-message';
+                responseElement.innerHTML = 'Form submitted successfully!';
+                // Clear form fields if submission is successful
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('message').value = '';
+            } else {
+                responseElement.className = 'error-message';
+                responseElement.innerHTML = 'Error submitting the form. Please try again later.';
+            }
+        }
+    </script>
+</body>
+
+</html>
